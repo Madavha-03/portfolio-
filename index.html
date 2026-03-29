@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Madavha Livhuwani – Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ── NAVIGATION ── -->
+<nav>
+  <div class="nav-logo">L<span>.</span>Madavha</div>
+  <ul class="nav-links">
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+<ul class="mobile-menu" id="mobileMenu">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#portfolio">Portfolio</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+<!-- ── HOME SECTION ── -->
+<section id="home">
+  <div class="pitch-bg"><div class="pitch-line"></div></div>
+  <div class="hero-inner">
+
+    <!-- LEFT: text -->
+    <div class="hero-text">
+      <div class="hero-tag">⚽ ICT Student &amp; Aspiring Game Dev</div>
+      <h1 class="hero-name">Madavha<br><span class="accent">Livhuwani</span></h1>
+      <p class="hero-sub">First-year ICT student at CPUT, building towards becoming a Networking Engineer, App Developer &amp; Football Game Creator.</p>
+      <div class="hero-cta">
+        <a href="#portfolio" class="btn btn-primary"><i class="fas fa-folder-open"></i> View Projects</a>
+        <a href="#contact" class="btn btn-ghost"><i class="fas fa-paper-plane"></i> Get In Touch</a>
+      </div>
+    </div>
+
+    <!-- RIGHT: photo -->
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-frame">
+          <img src="profile.jpg" alt="Madavha Livhuwani" class="hero-photo">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── ABOUT SECTION ── -->
+<section id="about">
+  <div class="section-wrap">
+    <p class="section-label reveal">// about me</p>
+    <h2 class="section-title reveal">Passion Meets<br>Technology</h2>
+    <div class="divider reveal"></div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>My journey as an IT professional has been shaped by a passion for solving real-world challenges. I'm now channeling that drive toward game development — specifically in the world of football.</p>
+        <p>Combining my tech skills with my love for football motivates me to create exciting, realistic football games. I aim to not only entertain but also explore how technology can improve sports education.</p>
+        <p>In the future, I plan to develop football games that push the boundaries of realism and gameplay while integrating cloud gaming elements — bringing people together through the universal language of sports.</p>
+        <div class="skills-title">Tech Stack</div>
+        <div class="lang-grid">
+          <div class="lang-card">
+            <i class="fa-brands fa-html5" style="color:#e34c26"></i>
+            <span class="lang-name">HTML5</span>
+          </div>
+          <div class="lang-card">
+            <i class="fa-brands fa-css3-alt" style="color:#264de4"></i>
+            <span class="lang-name">CSS3</span>
+          </div>
+          <div class="lang-card">
+            <i class="fa-brands fa-js" style="color:#f7df1e"></i>
+            <span class="lang-name">JavaScript</span>
+          </div>
+          <div class="lang-card">
+            <i class="fa-brands fa-java" style="color:#007396"></i>
+            <span class="lang-name">Java</span>
+          </div>
+        </div>
+      </div>
+      <div class="stat-grid reveal">
+        <div class="stat-card">
+          <div class="stat-number">4+</div>
+          <div class="stat-label">Languages</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">3</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">1st</div>
+          <div class="stat-label">Year @ CPUT</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">⚽</div>
+          <div class="stat-label">Game Dev Goal</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PORTFOLIO SECTION ── -->
+<section id="portfolio">
+  <div class="section-wrap">
+    <p class="section-label reveal">// my work</p>
+    <h2 class="section-title reveal">Featured<br>Projects</h2>
+    <div class="divider reveal"></div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <i class="fa-brands fa-java project-thumb-icon"></i>
+          <span class="project-thumb-badge">Java App</span>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Employee Salary System</div>
+          <p class="project-desc">A Java application managing Employee, Manager, and Secretary roles. Calculates and displays average salaries across all employee types using OOP principles.</p>
+          <div class="project-tags">
+            <span class="tag">Java</span>
+            <span class="tag">OOP</span>
+            <span class="tag">NetBeans</span>
+          </div>
+          <span class="project-link">View Details <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <i class="fas fa-network-wired project-thumb-icon"></i>
+          <span class="project-thumb-badge">Networking</span>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Network Topology Design</div>
+          <p class="project-desc">A network simulation built with Cisco Packet Tracer. Designed and configured a functional network topology with routers, switches, and end devices.</p>
+          <div class="project-tags">
+            <span class="tag">Cisco</span>
+            <span class="tag">Packet Tracer</span>
+            <span class="tag">TCP/IP</span>
+          </div>
+          <span class="project-link">View Details <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <i class="fas fa-globe project-thumb-icon"></i>
+          <span class="project-thumb-badge">Web Dev</span>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Personal Portfolio Website</div>
+          <p class="project-desc">This very portfolio — a responsive multi-page website built from scratch using HTML, CSS and JavaScript. Showcases projects, skills and contact information.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <span class="project-link">You're looking at it <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT SECTION ── -->
+<section id="contact">
+  <div class="section-wrap">
+    <p class="section-label reveal">// let's connect</p>
+    <h2 class="section-title reveal">Get In<br>Touch</h2>
+    <div class="divider reveal"></div>
+    <div class="contact-grid">
+
+      <div class="contact-info-list reveal">
+        <div class="contact-info-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <div class="ci-label">Phone</div>
+            <div class="ci-value">+27 63 635 5473</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <div class="ci-label">Email</div>
+            <div class="ci-value">madavhliv@gmail.com</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <div class="ci-label">Location</div>
+            <div class="ci-value">Cape Town, South Africa</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fa-brands fa-instagram"></i>
+          <div>
+            <div class="ci-label">Instagram</div>
+            <div class="ci-value">@madavha</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fa-brands fa-facebook"></i>
+          <div>
+            <div class="ci-label">Facebook</div>
+            <div class="ci-value">livhuwani</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-card reveal">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" id="fName" placeholder="e.g. John Doe">
+          </div>
+          <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" id="fEmail" placeholder="john@example.com">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" id="fSubject" placeholder="What's it about?">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea id="fMessage" placeholder="Tell me about your project or idea..."></textarea>
+        </div>
+        <button class="btn btn-primary form-submit" id="submitBtn">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+        <div class="success-msg" id="successMsg">✅ Message sent! I'll get back to you soon.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-logo">L.Madavha</div>
+  <p class="footer-copy">© 2025 Madavha Livhuwani · Cape Town, South Africa · Built with HTML, CSS &amp; JS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
