@@ -108,7 +108,7 @@ Across all these artefacts, a clear thread emerges: I am developing from a stude
 
 ## 🌐 Portfolio
 
-🔗 [View my Portfolio Website](https://livhuwani-madavha.github.io) &nbsp;|&nbsp; 💻 [GitHub Profile](https://github.com/livhuwani-madavha)
+🔗 [View my Portfolio Website](https://madavha-03.github.io/portfolio-/) &nbsp;|&nbsp; 💻 [GitHub Profile](https://github.com/livhuwani-madavha)
 
 ---
 
