@@ -16,7 +16,7 @@ This repository contains my digital portfolio, submitted as part of the PRP371S 
 My full CV coded in Markdown. It includes my objective, education, technical skills, lab projects, and cybersecurity competition experience.
 
 ### 2. [`mock-interview.md`](./mock-interview.md) — Mock Interview Video
-Contains the embedded link to my mock Junior Network Engineer interview video, along with project reflections for each artefact in my portfolio.
+Contains the embedded link to my mock interview video.
 
 ### 3. [`reflections.md`](./reflections.md) — STAR Method Reflections
 Three structured reflections using the STAR method (Situation, Task, Action, Result) covering:
